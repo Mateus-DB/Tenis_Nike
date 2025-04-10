@@ -40,3 +40,11 @@ Este é um projeto de uma **Landing Page da Nike**, criado com o objetivo de apr
 ## 📌 Observações
 
 Este projeto foi feito com fins de estudo e prática de desenvolvimento web utilizando tecnologias básicas de front-end.
+
+## 🔗 Acesse o projeto
+
+https://mateus-db.github.io/Tenis_Nike/
+
+
+
+
