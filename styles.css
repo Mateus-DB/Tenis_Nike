@@ -1,0 +1,152 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#ccee66;
+    color: white;
+    padding: 20px 160px;
+    height: 100vh;;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body::before{
+    content: '';
+    background-color: #202020;
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    left: -600px;
+    transform: rotate(-70deg);
+}
+
+body::after{
+    content: ' NIKE';
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    color: black;
+    font-size: 250px;
+    font-weight: bold;
+    transform:translate(-50%, -50%);
+    opacity: 0.5;
+    
+}
+
+.logo{
+    width: 80px;
+    z-index: 1;
+    position: relative;
+   
+}
+
+h4{
+    font-size: 30px;
+    
+  
+}
+
+h1{
+    font-size: 80px;
+    margin-top: -20px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.button{
+background-color: #a3be52;
+padding: 10px 20px;
+border-radius: 20px;
+font-size: 16px;
+color: black;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.tenis{
+    width: 800px;
+    transform: rotate(-25deg);
+    filter:drop-shadow(30px 45px 40px #161616);
+    transition: 1s;
+    
+}
+
+.troca-efeito{
+    opacity: 0;
+    transform: rotate(-25deg) translateY(-30deg);
+   
+}
+
+.box-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 1;
+    position: relative;   
+}
+
+.box-text{
+    max-width: 500px;
+    
+}
+
+.caixa-botao{
+z-index: 2;
+position: relative;
+display: flex;
+gap: 20px;
+padding: 70px 0;
+}
+
+.botao{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao:hover{
+    transform:translateY(-10px);
+   
+}
+
+
+.botao:active{
+    opacity: 0.6;
+}
+
+.verde{
+background-color: #ccee66;
+}
+
+.azul{
+background-color: #58cced;
+}
+
+.rosa{
+background-color: #ff9eb5;
+}
+
+.fade-motion{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fade-motion 1s ease-in-out forwards;
+}
+
+@keyframes fade-motion{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
