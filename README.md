@@ -1,5 +1,5 @@
 
-# 🏀 Landing Page - Nike
+# 🏀 Nike
 
 Este é um projeto de uma **Landing Page da Nike**, criado com o objetivo de apresentar três modelos de tênis de forma visual e interativa. A página permite ao usuário visualizar cada modelo de tênis através de botões, cada um representando um modelo diferente.
 
